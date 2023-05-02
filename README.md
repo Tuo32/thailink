@@ -3,4 +3,4 @@ The vueformal is the final version of the front end, if you want to run it on lo
 
 The src is the main folder of all backend code.
 
-There is the example database if you want to run it on localhost in seniorproject.sql
+There is the example database if you want to run it on localhost in seniorproject.sql. The demo user which has all permission, usrename:seeall password:seeall
