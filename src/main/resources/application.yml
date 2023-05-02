@@ -1,0 +1,38 @@
+server:
+  port: 9090
+#  ssl:
+#    enabled: true
+#    key-store: /var/www/html/key/keystore.p12
+#    key-store-password: 123
+#    key-store-type: PKCS12
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seniorProject?serverTimezone=GMT%2b7
+    username: liutianen
+    password: ljtyghbnLTG!
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml #scann all xml files in resource/mapper directory
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: AUTO
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+files:
+  upload:
+#    path: D:/bishe/files/
+    path: /var/www/html/files/
+
+receipts:
+  upload:
+#    path: D:/bishe/receipts/
+    path: /var/www/html/receipts/
+
+

@@ -1,0 +1,108 @@
+2023-04-17 00:09:24 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-17 00:09:24 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-17 00:09:24 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-04-17 00:09:25 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-17 00:09:25 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-17 00:09:33 [http-nio-9090-exec-8] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030x095]`>-0x1fI0x070x060x1b0xe20xe8S0xe60x90b0xb5["0xef0x920xfc0xacn`e0xdd0x090x9c0xda0x82 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-17 00:09:33 [http-nio-9090-exec-5] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030x98i0xd1>>Z\0xce0x8a0x95Y0x820xf1&0x1b0xf60x93)RC0x940xaa0xe00xfb0x909G0x860xe40x900xdd0x9e ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-17 00:09:33 [http-nio-9090-exec-7] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xecn0x09(0x060x93Q0xb6[{0x9a0xa30xd60xfb0xf7#0xf60x960x9f0xb710xcfu0xacc0xc20xab0xb60x09Q0xc70xdd ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-17 00:57:04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.liu.thailink.ThailinkManageApplicationTests], using SpringBootContextLoader
+2023-04-17 00:57:04 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.liu.thailink.ThailinkManageApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-04-17 00:57:04 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.liu.thailink.ThailinkManageApplicationTests]: ThailinkManageApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-04-17 00:57:04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.liu.thailink.ThailinkManageApplication for test class com.liu.thailink.ThailinkManageApplicationTests
+2023-04-17 00:57:04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-04-17 00:57:04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5ee2b6f9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@23d1e5d0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@704f1591, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@58fb7731, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13e547a9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3fb6cf60, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37ddb69a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@349c1daf, org.springframework.test.context.event.EventPublishingTestExecutionListener@dfddc9a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b9df8a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e8ac0e1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@aafcffa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6955cb39, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@235a0c16, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2b5f4d54]
+2023-04-17 00:57:04 [main] INFO  c.l.t.ThailinkManageApplicationTests - Starting ThailinkManageApplicationTests using Java 18.0.2.1 on 刘天恩 with PID 20536 (started by liuti in C:\Users\liuti\IdeaProjects\thailinkManage)
+2023-04-17 00:57:04 [main] INFO  c.l.t.ThailinkManageApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-04-17 00:57:05 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.liu.thailink.entities.RoleMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-04-17 00:57:06 [main] INFO  c.l.t.ThailinkManageApplicationTests - Started ThailinkManageApplicationTests in 2.04 seconds (JVM running for 2.739)
+2023-04-17 01:25:55 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.liu.thailink.ThailinkManageApplicationTests], using SpringBootContextLoader
+2023-04-17 01:25:55 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.liu.thailink.ThailinkManageApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-04-17 01:25:55 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.liu.thailink.ThailinkManageApplicationTests]: ThailinkManageApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-04-17 01:25:55 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.liu.thailink.ThailinkManageApplication for test class com.liu.thailink.ThailinkManageApplicationTests
+2023-04-17 01:25:55 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-04-17 01:25:55 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5ee2b6f9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@23d1e5d0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@704f1591, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@58fb7731, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13e547a9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3fb6cf60, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37ddb69a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@349c1daf, org.springframework.test.context.event.EventPublishingTestExecutionListener@dfddc9a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b9df8a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e8ac0e1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@aafcffa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6955cb39, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@235a0c16, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2b5f4d54]
+2023-04-17 01:25:55 [main] INFO  c.l.t.ThailinkManageApplicationTests - Starting ThailinkManageApplicationTests using Java 18.0.2.1 on 刘天恩 with PID 21784 (started by liuti in C:\Users\liuti\IdeaProjects\thailinkManage)
+2023-04-17 01:25:55 [main] INFO  c.l.t.ThailinkManageApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-04-17 01:25:56 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.liu.thailink.entities.RoleMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-04-17 01:25:57 [main] INFO  c.l.t.ThailinkManageApplicationTests - Started ThailinkManageApplicationTests in 2.041 seconds (JVM running for 2.724)
+2023-04-17 01:38:37 [main] INFO  c.l.t.ThailinkManageApplication - Starting ThailinkManageApplication v0.0.1-SNAPSHOT using Java 1.8.0_361 on ����� with PID 5592 (C:\Users\liuti\IdeaProjects\thailinkManage\thaiv4.jar started by liuti in C:\Users\liuti\IdeaProjects\thailinkManage)
+2023-04-17 01:38:37 [main] INFO  c.l.t.ThailinkManageApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-17 01:38:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2023-04-17 01:38:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-jsse-nio-9090"]
+2023-04-17 01:38:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-17 01:38:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-04-17 01:38:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-17 01:38:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1126 ms
+2023-04-17 01:38:39 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.liu.thailink.entities.RoleMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-04-17 01:38:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-jsse-nio-9090"]
+2023-04-17 01:38:40 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+2023-04-17 01:38:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-jsse-nio-9090"]
+2023-04-17 01:38:40 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-17 01:38:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-jsse-nio-9090"]
+2023-04-17 01:38:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-jsse-nio-9090"]
+2023-04-17 01:38:40 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-17 01:38:40 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2023-04-17 01:44:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-17 01:44:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-04-17 02:06:41 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.liu.thailink.ThailinkManageApplicationTests], using SpringBootContextLoader
+2023-04-17 02:06:41 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.liu.thailink.ThailinkManageApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-04-17 02:06:41 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.liu.thailink.ThailinkManageApplicationTests]: ThailinkManageApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-04-17 02:06:41 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.liu.thailink.ThailinkManageApplication for test class com.liu.thailink.ThailinkManageApplicationTests
+2023-04-17 02:06:41 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-04-17 02:06:41 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@704f1591, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@58fb7731, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@13e547a9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3fb6cf60, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@37ddb69a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@349c1daf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@dfddc9a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b9df8a, org.springframework.test.context.event.EventPublishingTestExecutionListener@5e8ac0e1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@aafcffa, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6955cb39, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@235a0c16, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2b5f4d54, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5f7b97da, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@18b0930f]
+2023-04-17 02:06:41 [main] INFO  c.l.t.ThailinkManageApplicationTests - Starting ThailinkManageApplicationTests using Java 18.0.2.1 on 刘天恩 with PID 21632 (started by liuti in C:\Users\liuti\IdeaProjects\thailinkManage)
+2023-04-17 02:06:41 [main] INFO  c.l.t.ThailinkManageApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-04-17 02:06:42 [main] WARN  c.b.m.c.injector.DefaultSqlInjector - class com.liu.thailink.entities.RoleMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-04-17 02:06:43 [main] INFO  c.l.t.ThailinkManageApplicationTests - Started ThailinkManageApplicationTests in 2.075 seconds (JVM running for 2.712)
